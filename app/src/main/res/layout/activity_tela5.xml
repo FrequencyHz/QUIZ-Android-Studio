@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tela5">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:backgroundTint="#2196F3"
+        tools:context=".tela5">
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="385dp"
+            android:layout_height="107dp"
+            android:lineSpacingExtra="0sp"
+            android:text="Qual o monumento famoso pela sua inclinação?"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.208" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="165dp"
+            android:layout_height="35dp"
+            android:lineSpacingExtra="0sp"
+            android:text="Questão 5/10"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.065"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.068" />
+
+        <Button
+            android:id="@+id/btnProximo5"
+            android:layout_width="202dp"
+            android:layout_height="69dp"
+            android:backgroundTint="#C100FF05"
+            android:text="Próximo"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.85" />
+
+        <RadioGroup
+            android:layout_width="374dp"
+            android:layout_height="196dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.571"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.547">
+
+            <RadioButton
+                android:id="@+id/rdo41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estátua da Liberdade" />
+
+            <RadioButton
+                android:id="@+id/rdo42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Torre de Pisa" />
+
+            <RadioButton
+                android:id="@+id/rdo43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cristo Redentor" />
+
+            <RadioButton
+                android:id="@+id/rdo44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Torre Eiffel" />
+
+        </RadioGroup>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

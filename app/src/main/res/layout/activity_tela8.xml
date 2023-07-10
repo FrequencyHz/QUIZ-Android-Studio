@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tela8">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:backgroundTint="#2196F3"
+        tools:context=".tela8">
+
+        <TextView
+            android:id="@+id/txt8"
+            android:layout_width="380dp"
+            android:layout_height="125dp"
+            android:lineSpacingExtra="0sp"
+            android:text="O que comemora no feriado do dia 21 de abril no Brasil?"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.208" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="165dp"
+            android:layout_height="35dp"
+            android:lineSpacingExtra="0sp"
+            android:text="Questão 8/10"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.065"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.068" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup8"
+            android:layout_width="374dp"
+            android:layout_height="196dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.571"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.547">
+
+            <RadioButton
+                android:id="@+id/rdo71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Natal" />
+
+            <RadioButton
+                android:id="@+id/rdo72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Independência do Brasil" />
+
+            <RadioButton
+                android:id="@+id/rdo73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiradentes" />
+
+            <RadioButton
+                android:id="@+id/rdo74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Finados" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnProximo8"
+            android:layout_width="202dp"
+            android:layout_height="69dp"
+            android:backgroundTint="#C100FF05"
+            android:text="Próximo"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.85" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
